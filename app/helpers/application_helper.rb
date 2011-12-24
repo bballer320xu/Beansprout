@@ -1,7 +1,7 @@
 module ApplicationHelper
   
   def footer
-     raw("#{t('global.app_name')} #{bar_break} #{t('global.copyright')}")
+     raw("#{t('global.app_name')} #{bar_break} #{t('global.copyright')}  #{Time.now.year}")
   end  
   
   def title
